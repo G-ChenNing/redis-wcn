@@ -1,12 +1,16 @@
 package com.github.wangchenning.redis.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Service;
+import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
-@Service
+@Configuration
+@ConditionalOnProperty("redis.host")
+@EnableConfigurationProperties(RedisConfig.class)
 public class RedisPoolFactory {
 
 	@Autowired

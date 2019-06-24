@@ -3,7 +3,6 @@ package com.github.wangchenning.redis.redis;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
 @ConfigurationProperties(prefix="redis")
 public class RedisConfig {
 	private String host;

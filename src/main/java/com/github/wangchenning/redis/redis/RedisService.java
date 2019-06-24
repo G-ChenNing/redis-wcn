@@ -2,6 +2,7 @@ package com.github.wangchenning.redis.redis;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
+import com.github.wangchenning.redis.redis.KeyPrefix;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
