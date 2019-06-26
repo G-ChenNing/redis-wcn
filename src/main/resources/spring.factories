@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.wangchenning.redis.redis.RedisPoolFactory,\
+com.github.wangchenning.redis.redis.RedisService
