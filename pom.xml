@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.github.g-chenning</groupId>
     <artifactId>redis-wcn</artifactId>
-    <version>0.0.13-RELEASE</version>
+    <version>0.0.20-RELEASE</version>
     <packaging>jar</packaging>
     <url>https://github.com/G-ChenNing/JDBC-yml-Quick</url>
     <description>JDBC-yml-Quick</description>
@@ -22,6 +22,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-web</artifactId>-->
+<!--        </dependency>-->
         <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
         <dependency>
             <groupId>redis.clients</groupId>

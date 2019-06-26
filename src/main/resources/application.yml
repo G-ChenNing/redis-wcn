@@ -1,0 +1,9 @@
+#redis:
+#  #  host: 127.0.0.1
+#  #  host: 119.3.49.76
+#  host: 192.168.30.16
+#  password: Landsky123
+#  poolMaxIdle: 100
+#  poolMaxTotal: 500
+#  port: 6379
+#  timeout: 10
